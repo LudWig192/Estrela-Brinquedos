@@ -1,0 +1,56 @@
+
+.tabela-cadastro-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+  }
+  
+  .tabela-cadastro {
+    width: 90%;
+    max-width: 1200px;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .tabela-cadastro thead {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .tabela-cadastro th, .tabela-cadastro td {
+    padding: 12px 15px;
+  }
+  
+  .tabela-cadastro tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .tabela-cadastro tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .tabela-cadastro tbody tr:last-of-type {
+    border-bottom: 2px solid #007bff;
+  }
+  
+  .tabela-cadastro button {
+    padding: 8px 12px;
+    color: white;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .tabela-cadastro button:hover {
+    background-color: #c82333;
+  }
+  
